@@ -73,6 +73,8 @@ p {line-height: 1.5em;}
     .press {display: block;}
 }
     </style>
+
+<link rel="stylesheet" href="slider.css">
 </head>
 
 <body data-new-gr-c-s-check-loaded="8.901.0" data-gr-ext-installed=""><div class="header noselect">
@@ -213,7 +215,26 @@ p {line-height: 1.5em;}
 
     <hr>
 
-    <img src="./files/curro.png" alt="Descripción de la imagen" style="width: 100%; height: auto;">
+    <div class="noselect">
+        <a id="media"></a>
+        <h2>Media</h2>
+    </div>
+
+    <div class="slider">
+        <div class="slides">
+          <div class="slide">
+            <img src="files/curro.png" alt="Imagen 1">
+          </div>
+          <div class="slide">
+            <img src="files/forest.jpg" alt="Imagen 2">
+          </div>
+          <div class="slide">
+            <video src="files/droning.mp4" autoplay loop></video>
+          </div>
+        </div>
+        <div class="prev-btn">&#10094;</div>
+        <div class="next-btn">&#10095;</div>
+      </div>
 
 
     <!-- Google tag (gtag.js) -->
@@ -233,4 +254,5 @@ p {line-height: 1.5em;}
     </div>
 </div>
 
+<script src="slider.js"></script>
 </body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>
